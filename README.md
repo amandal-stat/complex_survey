@@ -42,9 +42,7 @@ fit <- SNSBARTW(X = dat$X, Y = dat$Y, test_X = dat$X,
                 w = dat$w, ni = dat$ni,
                 hypers = hypers, opts = opts)
 
-# Weighted RMSE
-sqrt(mean(dat$w * (dat$Y - fit$y_hat_train_mean)^2))
-```
+
 
 ## Contact
 Abhishek Mandal — amandal2@fsu.edu  
